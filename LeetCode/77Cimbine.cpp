@@ -17,7 +17,7 @@ public:
         for (int i = begin; i <= n; i++) {
             path.push_back(i);
             dfs(n, k, i + 1);
-            path.pop_back();
+            path.pop_back(); //回到上个节点
         }
     }
 };
