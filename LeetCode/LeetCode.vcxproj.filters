@@ -13,13 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\BST">
+      <UniqueIdentifier>{84c3be3e-d183-4e3f-8136-766fdefe32e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="77Cimbine.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="109sortedListToBST.cpp">
+      <Filter>源文件\BST</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
